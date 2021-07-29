@@ -1,0 +1,142 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: inline-flex;
+  height: 69px;
+  width: 100%;
+  background-color: black;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  justify-content: space-between;
+  position: fixed;
+}
+
+header img {
+  height: 50px;
+  width: auto;
+  margin-left: 10px;
+}
+
+header a {
+  color: seashell;
+  margin: 10px;
+}
+header a:hover {
+  color: black;
+  background-color: seashell;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.our-mission {
+  display: flex;
+  height: 700px;
+  width: 1200px;
+  background-image: url(images/mission-background.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+}
+
+.our-mission div {
+  padding: 1px;
+  text-align: center;
+  background-color: black;
+  width: 1200px;
+}
+
+.tea-of-the-month {
+  margin: 50px 0;
+  width: 1000px;
+}
+
+.tea-of-the-month h2,
+h4,
+.locations h2 {
+  text-align: center;
+}
+
+.tea-of-the-month .box img {
+  width: 300px;
+  height: 200px;
+  margin: 0 15px;
+}
+
+.tea-of-the-month .box h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+.tea-of-the-month .boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.locations {
+  width: 1200px;
+  height: 500px;
+  background-image: url(images/locations-background.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.locations h2,
+footer p,
+footer h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.boxes-locations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-location {
+  display: flex;
+  height: 300px;
+  margin: 15px 20px;
+  opacity: 1;
+  background-color: black;
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+footer {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.copyright {
+  text-align: left;
+  margin: 20px;
+}
